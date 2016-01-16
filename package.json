@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron src/main.js",
+    "package": "electron-packager . electron-quick-start --platform=win32 --arch=x64 --version=0.36.3 --overwrite"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "homepage": "https://github.com/atom/electron-quick-start#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+    "browser-jsonp": "1.1.2",
+    "electron-packager": "5.2.0",
+    "electron-prebuilt": "^0.36.0",
+    "riot": "2.3.13"
   }
 }

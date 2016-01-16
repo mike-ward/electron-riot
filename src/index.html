@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Electron!</title>
+  <link rel="stylesheet" href="pure-min.css">
+</head>
+
+<body style="margin: 1pc">
+  <h1>Hello iTunes!</h1>
+  <itunes-browser />
+
+  <script>
+    const riot = require('riot'); 
+    const jsonp = require('browser-jsonp')
+  </script>
+  
+  <script src="tags.js"></script>
+
+  <script>
+    riot.mount('itunes-browser');
+  </script>
+</body>
+</html>
