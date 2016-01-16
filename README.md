@@ -6,6 +6,8 @@ Electron Riot
 A simple example of an Electron application using
 [RIOT](http://riotjs.com) for the view layer.
 
+![screen shot](http://i.imgur.com/hOJtyTE.png)
+
 This is a hack of the Electron start application.
 
 Install
