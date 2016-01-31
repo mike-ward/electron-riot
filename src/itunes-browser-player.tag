@@ -22,7 +22,7 @@
         this.player.load();
         this.player.play();
     }
-    
+      
     this.close = e => {
         this.player.pause();
         this.media = null;
