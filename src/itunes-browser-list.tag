@@ -32,7 +32,7 @@
     this.filterby = '';
     this.sortby = 'artistName';
 
-    this.play = e => this.opts.track.trigger('changed', e && e.item);
+    this.play = evt => this.opts.track.trigger('changed', evt && evt.item);
     
     this.opts.results.on('changed', items => {
       this.play(null);
