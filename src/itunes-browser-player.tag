@@ -42,8 +42,5 @@
       padding: 20px;
       background-color: white;
     }
-    .pull-right {
-      float: right;
-    }
   </style>
 </itunes-browser-player>
